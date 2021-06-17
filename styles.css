@@ -1,6 +1,6 @@
 body {
-    background-color: #f49e47;
-    https://pro2-bar.myportfolio.com/v1/assets/67cf45ca-338d-4fd0-943b-32d96162976a/b7b52d14-b827-4c3a-906f-3b94fa13f35f_rw_192?
+    background-color: #8dc4c4;
+    background-image: url(https://pro2-bar.myportfolio.com/v1/assets/67cf45ca-338d-4fd0-943b-32d96162976a/b7b52d14-b827-4c3a-906f-3b94fa13f35f_rw_192?); 
 }
 h1 {
     color: #46484c;
@@ -15,3 +15,61 @@ button {
     color: #fff;
     background-color: #025157;
 }
+
+.header {
+    margin: 40px 20px 0 20px;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+  }
+
+  li {
+      display: inline;
+  }
+
+  .header > * {
+      display: inline-block;
+      font-size: 16px;
+      vertical-align: middle;
+      height: 100%;
+      line-height: 45px;
+  }
+
+  .logo {
+      width: 15%;
+  }
+  .navbar {
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+    font: serif;
+  }
+  .menu-item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .actions {
+    width: 20%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .actions a {
+    color: #67b54b;
+  }
+  .actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+  }

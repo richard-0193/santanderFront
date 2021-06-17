@@ -1,0 +1,12 @@
+.navbar {
+    width: 70%;
+    text-align: left;
+    color: #025157;
+    font-weight: 500;
+  }
+  .actions {
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+  }
