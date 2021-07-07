@@ -331,3 +331,80 @@ a {
   .how-does-it-work .steps .card-steps .card-step-body {
     padding: 25px;
   }
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+  .navbar, .actions {
+    display: none;
+  }
+  main {
+    margin-top: 130px;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .banner > img {
+    width: 100%;
+  }
+  .datos-p > form {
+    flex-direction: column;
+  }
+
+  .datos-p > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .datos-p > form > div > input {
+    width: 65%;
+  }
+
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
+  
+  } 
+  .explanatory-video > video {
+    width: 100%;
+  }
+  .publish {
+    margin-top: 10px;
+  }
+
+  .publish > h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+  .features {
+    display: grid;
+    grid-template: repeat(4, 1fr) / 1fr;
+    padding: 0;
+    padding-right: 0;
+
+  }
+
+  .feature-image {
+    display: none;
+  }
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  
+}
+
